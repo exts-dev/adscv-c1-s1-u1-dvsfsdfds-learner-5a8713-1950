@@ -5,4 +5,4 @@ jobs:
     name: Random return
     runs-on: ubuntu-latest
     steps:
-      - run: (( $RANDOM > 25000 ))
+      - run: echo "ok"
