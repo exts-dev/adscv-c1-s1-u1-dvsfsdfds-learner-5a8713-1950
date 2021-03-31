@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run bad command
-        run: failed
+        run: echo "a"
